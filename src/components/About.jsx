@@ -28,10 +28,10 @@ const About = () => {
                             ))
                         }
                     </div>
-                    <button className='flex items-center gap-2 px-10 py-4 bg-zinc-800 rounded-full text-slate-200 hover:bg-zinc-900 transition duration-300 cursor-pointer'>
+                    <a href={assets.resumeCV} target='_blank' rel='noopener noreferrer' className='flex items-center gap-2 w-fit px-10 py-4 bg-zinc-800 rounded-full text-slate-200 hover:bg-zinc-900 transition duration-300 cursor-pointer'>
                         <FaDownload />
                         Download Resume
-                    </button>
+                    </a>
                 </div>
 
                 {/* Image Section right side */}

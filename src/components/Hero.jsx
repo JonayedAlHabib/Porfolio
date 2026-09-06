@@ -17,14 +17,14 @@ const Hero = () => {
                          I build the high-performance foundations that power immersive web experiences, bridging complex backend engineering with seamless user interaction.
                     </p>
                     <div className='flex flex-col md:flex-row items-center gap-4'>
-                    <button className='flex gap-2 items-center px-10 py-4 bg-black rounded-full text-slate-200 hover:text-white cursor-pointer'>
+                    <a href='#work' className='flex gap-2 items-center px-10 py-4 bg-black rounded-full text-slate-200 hover:text-white cursor-pointer'>
                         View My Work
                         <FaArrowRight />
-                    </button>
-                    <button className='flex gap-2 items-center px-10 py-4 border border-slate-400 rounded-full hover:border-slate-800 transition duration-300 cursor-pointer'>
+                    </a>
+                    <a href='#contact' className='flex gap-2 items-center px-10 py-4 border border-slate-400 rounded-full hover:border-slate-800 transition duration-300 cursor-pointer'>
                         Contact Me
                         <FaArrowRight />
-                    </button>
+                    </a>
                     </div>
                 </div>
 

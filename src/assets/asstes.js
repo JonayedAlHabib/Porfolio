@@ -1,11 +1,13 @@
 import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact, FaRProject, FaSchool } from 'react-icons/fa6'
 import profileImg from '../assets/profile.avif'
+import resumeCV from '../assets/Jonayed_Al_Habib_CV.pdf'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 
 
 export const assets = {
     profileImg,
+    resumeCV,
 }
 
 

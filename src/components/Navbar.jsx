@@ -1,5 +1,5 @@
 import React from 'react'
-import {navMenu} from '../assets/asstes.js'
+import {navMenu, assets} from '../assets/asstes.js'
 import { FaArrowRight } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -22,10 +22,10 @@ const Navbar = () => {
           </div>
           {/* button */}
           <div>
-            <button className='px-10 py-4 border border-zinc-800 rounded-full flex items-center gap-2 cursor-pointer text-slate-500 hover:text-slate-800 hover:translate-x-1 transition duration-300'>
+            <a href={assets.resumeCV} target='_blank' rel='noopener noreferrer' className='px-10 py-4 border border-zinc-800 rounded-full flex items-center gap-2 cursor-pointer text-slate-500 hover:text-slate-800 hover:translate-x-1 transition duration-300'>
               Resume
               <FaArrowRight className='text-gray-500 text-sm'/>
-            </button>
+            </a>
           </div>
         </div>
       </div>

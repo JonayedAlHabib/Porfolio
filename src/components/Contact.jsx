@@ -13,7 +13,7 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' className='py-20'>
+    <div id='contact' className='py-20 scroll-mt-24'>
         <div className='max-w-3xl mx-auto px-6 text-center'>
             <h2 className='text-4xl sm:text-5xl font-bold mb-6'>
                 Get In <span className='text-teal-600'>Touch</span>
