@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { SiLeetcode } from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -10,14 +11,14 @@ const Footer = () => {
                 <span className='text-teal-800'>JONAYED</span>
             </div>
             <div className='flex gap-4 text-teal-800 text-xl'>
-                <a href='#' aria-label='Twitter' className='hover:text-teal-600 transition duration-300'>
-                    <FaTwitter />
+                <a href='https://www.linkedin.com/in/jonayed-al-habib-673b132b1/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn' className='hover:text-teal-600 transition duration-300'>
+                    <FaLinkedin />
                 </a>
-                <a href='#' aria-label='Github' className='hover:text-teal-600 transition duration-300'>
+                <a href='https://github.com/JonayedAlHabib' target='_blank' rel='noopener noreferrer' aria-label='Github' className='hover:text-teal-600 transition duration-300'>
                     <FaGithub />
                 </a>
-                <a href='#' aria-label='LinkedIn' className='hover:text-teal-600 transition duration-300'>
-                    <FaLinkedin />
+                <a href='https://leetcode.com/u/_jonayed_/' target='_blank' rel='noopener noreferrer' aria-label='Leetcode' className='hover:text-teal-600 transition duration-300'>
+                    <SiLeetcode />
                 </a>
             </div>
             <p className='text-sm text-zinc-500'>
