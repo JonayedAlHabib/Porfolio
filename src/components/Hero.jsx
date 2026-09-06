@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa';
+import { assets } from '../assets/asstes';
 
 const Hero = () => {
   return (
@@ -24,6 +25,15 @@ const Hero = () => {
                         Contact Me
                         <FaArrowRight />
                     </button>
+                    </div>
+                </div>
+
+                {/* Image Section right side */}
+                <div className='flex justify-center'>
+                    <div className='relative w-72 h-72 sm:w-80 sm:h-80 floating'>
+                        <div className='absolute insert-0 rounded-2xl overflow-hidden border-4 border-slate-600/30 glow'>
+                            <img className='w-full h-full object-cover' src={assets.profileImg} alt="Profile image" />
+                        </div>
                     </div>
                 </div>
             </div>
