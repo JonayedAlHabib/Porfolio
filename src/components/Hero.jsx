@@ -4,7 +4,7 @@ import { assets } from '../assets/asstes';
 
 const Hero = () => {
   return (
-    <div id='home' className='min-h-screen flex items-center pt-16'>
+    <div id='home' className='min-h-screen flex items-center pt-16 scroll-mt-24'>
         <div className='max-w-7xl mx-auto px-6 py-20'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
                 <div className='text-center lg:text-left'>

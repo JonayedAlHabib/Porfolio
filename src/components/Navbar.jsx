@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className='hidden md:flex space-x-8 border border-gray-200 rounded-full px-10 py-4'>
             {
               navMenu.map((item, index)=>( 
-                <a key={index} href={`#${item}`}>{item}</a>
+                <a key={index} href={`#${item.toLowerCase()}`}>{item}</a>
               ))
             }
           </div>
