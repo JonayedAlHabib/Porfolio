@@ -12,10 +12,10 @@ const About = () => {
                         <span className='text-teal-600'>About</span>Me
                     </h2>
                     <p className='text-lg text-zinc-700 mb-6'>
-                        I'm a frontend developer with a passion for creating immersive digital experiences. With over 5 years in the industry, I've worked with startups and Fortune 500 companies to bring their visions to life.
+                        I'm a backend-focused MERN Stack Developer passionate about building secure, scalable APIs and AI-powered applications. As a recent BSc in Information Technology graduate, I've spent my final year and beyond architecting production-grade systems — from REST APIs to full authentication flows.
                     </p>
                     <p className='text-lg text-zinc-700 mb-10'>
-                        My approach combines technical expertise with creative design thinking to build applications that are not only functional but also visually stunning.
+                        My approach combines strong backend fundamentals (Node.js, Express, MongoDB) with an eye for clean system design — building applications that are secure, well-structured, and genuinely production-ready, not just prototypes.
                     </p>
                     <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10'>
                         {

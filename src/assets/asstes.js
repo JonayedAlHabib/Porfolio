@@ -1,4 +1,4 @@
-import { FaCode, FaDesktop, FaMicrochip, FaMobile, FaReact, FaRProject, FaSchool } from 'react-icons/fa6'
+import { FaDatabase, FaDesktop, FaGear, FaReact, FaRobot, FaSchool, FaWrench } from 'react-icons/fa6'
 import profileImg from '../assets/profile.avif'
 import resumeCV from '../assets/Jonayed_Al_Habib_CV.pdf'
 import { FaProjectDiagram } from 'react-icons/fa'
@@ -16,29 +16,29 @@ export const navMenu = ['Home', 'Work', 'Skills', 'About', 'Contact']
 
 export const skillsData = [
     {
-        icon: FaMicrochip,
+        icon: FaGear,
         title: 'Backend',
-        technologies: ['Python', 'Postgres', 'Redis', 'Next.js']
+        technologies: ['Node.js', 'Express', 'JWT Auth', 'REST APIs']
+    },
+    {
+        icon: FaDatabase,
+        title: 'Database',
+        technologies: ['MongoDB', 'Mongoose', 'Redis']
     },
     {
         icon: FaReact,
         title: 'Frontend',
-        technologies: ['React', 'Html', 'Css', 'Tailwindcss']
+        technologies: ['React', 'HTML', 'CSS', 'Tailwind CSS']
     },
     {
-        icon: FaDesktop,
-        title: 'Web',
-        technologies: ['Nginx', 'Linux', 'Wsgi', 'Server']
+        icon: FaWrench,
+        title: 'DevOps & Tools',
+        technologies: ['Linux', 'Docker', 'Git', 'GitHub', 'Render']
     },
     {
-        icon: FaCode ,
-        title: 'DevOps',
-        technologies: ['Linux', 'Git', 'Github', 'Docker', 'Jenkins', 'CI/CD']
-    },
-    {
-        icon: FaMobile,
-        title: 'Mobile',
-        technologies: ['React Native', 'Android', 'Flutter', 'Java']
+        icon: FaRobot,
+        title: 'AI Integration',
+        technologies: ['Google Gemini API', 'Prompt Engineering']
     },
 ]
 
@@ -73,18 +73,18 @@ export const projectData = [
 
 export const profileData = [
     {
-        icon: FaCode ,
+        icon: FaDesktop ,
         title: 'Language',
-        technologies : ['Python', 'Django', 'Rest', 'React', 'Tailwindcss']
+        technologies : ['JavaScript', 'Node.js', 'Express', 'MongoDB', 'React', 'JWT/OAuth']
     },
     {
         icon: FaSchool ,
         title: 'Education',
-        technologies : ['B.Tech in Compuer Science']
+        technologies : ['BSc in Information Technology, UITS']
     },
     {
         icon: FaProjectDiagram ,
         title: 'Projects',
-        technologies : ['Built more than 25+']
+        technologies : ['Built more than 5+']
     },
 ]
