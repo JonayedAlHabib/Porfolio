@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='border-t border-gray-200'>
         <div className='max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4'>
             <div className='text-xl font-bold text-zinc-800'>
-                <span>THE-</span>
-                <span className='text-teal-800'>JONAYED</span>
+                <span>Jonayed</span>
+                <span className='text-teal-800'>.dev</span>
             </div>
             <div className='flex gap-4 text-teal-800 text-xl'>
                 <a href='https://www.linkedin.com/in/jonayed-al-habib-673b132b1/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn' className='hover:text-teal-600 transition duration-300'>
@@ -22,7 +22,7 @@ const Footer = () => {
                 </a>
             </div>
             <p className='text-sm text-zinc-500'>
-                © {new Date().getFullYear()} The-Jonayed Developer. All rights reserved.
+                © {new Date().getFullYear()} Jonayed.dev. All rights reserved.
             </p>
         </div>
     </div>

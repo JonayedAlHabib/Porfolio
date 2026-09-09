@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className='flex justify-between items-center'>
           {/* logo */}
           <div className='text-2xl font-bold text-zinc-800'>
-            <span>THE-</span>
-            <span className='text-teal-800 front-orbitron'>JONAYED</span> 
+            <span>Jonayed</span>
+            <span className='text-teal-800 front-orbitron'>.dev</span>
           </div>
           {/* Menu */}
           <div className='hidden md:flex space-x-8 border border-gray-200 rounded-full px-10 py-4'>
