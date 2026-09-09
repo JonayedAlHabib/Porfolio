@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub, FaArrowUpRightFromSquare } from 'react-icons/fa6'
 import { projectData } from '../assets/asstes';
 
 const Work = () => {
@@ -31,6 +32,32 @@ const Work = () => {
                                     </span>
                                 ))}
                             </div>
+                            {(project.live || project.github) && (
+                                <div className='flex items-center gap-4 mt-4'>
+                                    {project.live && (
+                                        <a
+                                            href={project.live}
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                            onClick={(e) => e.stopPropagation()}
+                                            className='flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700'
+                                        >
+                                            <FaArrowUpRightFromSquare /> Live Demo
+                                        </a>
+                                    )}
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                            onClick={(e) => e.stopPropagation()}
+                                            className='flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-slate-900'
+                                        >
+                                            <FaGithub /> GitHub
+                                        </a>
+                                    )}
+                                </div>
+                            )}
                         </div>
                        </div> 
                     ))
