@@ -1,6 +1,7 @@
 import { FaDatabase, FaDesktop, FaGear, FaReact, FaRobot, FaSchool, FaWrench } from 'react-icons/fa6'
 import profileImg from '../assets/profile.avif'
 import resumeCV from '../assets/Jonayed_Al_Habib_CV.pdf'
+import interviewAIImg from '../assets/Project/Interview-AI.png'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 
@@ -46,28 +47,12 @@ export const skillsData = [
 
 export const projectData = [
     {
-        title: 'Health Care',
-        description: 'Immersive shopping experience with python tailwind and react',
-        image: 'https://plus.unsplash.com/premium_photo-1661293879952-c5c093282801?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D',
-        tech: ['React', 'Tailwindcss', 'Python']
-    },
-    {
-        title: 'FurniCraft',
-        description: 'A modern furniture e-commerce platform offering customizable home and office furniture .',
-        image: 'https://plus.unsplash.com/premium_photo-1684769161054-2fa9a998dcb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
-        tech: ['React', 'Tailwindcss', 'Python']
-    },
-    {
-        title: 'Collaboration',
-        description: 'A real-time collaborative platform for artists and designers to co-create digital art',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
-        tech: ['React', 'Tailwindcss', 'Python']
-    },
-    {
-        title: 'Abmbivista',
-        description: 'A mood-based interior design suggestion tool that uses AI',
-        image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2plY3R8ZW58MHx8MHx8fDA%3D',
-        tech: ['Django', 'Tailwindcss', 'Python', 'Rest']
+        title: 'Interview AI',
+        description: 'Turns a job description and resume into a personalized interview strategy with skill-gap analysis, a prep roadmap, and live AI-driven mock interview practice.',
+        image: interviewAIImg,
+        tech: ['React', 'Node.js', 'Google Gemini API'],
+        live: 'https://interview-ai-1-j8hh.onrender.com/',
+        github: 'https://github.com/JonayedAlHabib/Interview-AI'
     }
 ]
 
