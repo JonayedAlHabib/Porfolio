@@ -4,24 +4,24 @@ import { SiLeetcode } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <div className='border-t border-gray-200'>
+    <div className='border-t border-gray-200 dark:border-zinc-700'>
         <div className='max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4'>
-            <div className='text-xl font-bold text-zinc-800'>
+            <div className='text-xl font-bold text-zinc-800 dark:text-zinc-100'>
                 <span>Jonayed</span>
-                <span className='text-teal-800'>.dev</span>
+                <span className='text-teal-800 dark:text-teal-400'>.dev</span>
             </div>
-            <div className='flex gap-4 text-teal-800 text-xl'>
-                <a href='https://www.linkedin.com/in/jonayed-al-habib-673b132b1/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn' className='hover:text-teal-600 transition duration-300'>
+            <div className='flex gap-4 text-teal-800 dark:text-teal-400 text-xl'>
+                <a href='https://www.linkedin.com/in/jonayed-al-habib-673b132b1/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn' className='hover:text-teal-600 dark:hover:text-teal-300 transition duration-300'>
                     <FaLinkedin />
                 </a>
-                <a href='https://github.com/JonayedAlHabib' target='_blank' rel='noopener noreferrer' aria-label='Github' className='hover:text-teal-600 transition duration-300'>
+                <a href='https://github.com/JonayedAlHabib' target='_blank' rel='noopener noreferrer' aria-label='Github' className='hover:text-teal-600 dark:hover:text-teal-300 transition duration-300'>
                     <FaGithub />
                 </a>
-                <a href='https://leetcode.com/u/_jonayed_/' target='_blank' rel='noopener noreferrer' aria-label='Leetcode' className='hover:text-teal-600 transition duration-300'>
+                <a href='https://leetcode.com/u/_jonayed_/' target='_blank' rel='noopener noreferrer' aria-label='Leetcode' className='hover:text-teal-600 dark:hover:text-teal-300 transition duration-300'>
                     <SiLeetcode />
                 </a>
             </div>
-            <p className='text-sm text-zinc-500'>
+            <p className='text-sm text-zinc-500 dark:text-zinc-400'>
                 © {new Date().getFullYear()} Jonayed.dev. All rights reserved.
             </p>
         </div>

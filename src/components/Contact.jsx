@@ -60,9 +60,9 @@ const Contact = () => {
     <div id='contact' className='py-20 scroll-mt-24'>
         <div className='max-w-3xl mx-auto px-6 text-center'>
             <h2 className='text-4xl sm:text-5xl font-bold mb-6'>
-                Get In <span className='text-teal-600'>Touch</span>
+                Get In <span className='text-teal-600 dark:text-teal-400'>Touch</span>
             </h2>
-            <p className='text-xl text-zinc-700 mb-12'>
+            <p className='text-xl text-zinc-700 dark:text-zinc-300 mb-12'>
                 Have a project in mind or want to discuss potential opportunities?
             </p>
             <form onSubmit={handleSubmit} noValidate className='text-left'>
@@ -75,7 +75,7 @@ const Contact = () => {
                             onChange={handleChange}
                             placeholder='Enter Name'
                             required
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600'
+                            className='w-full px-4 py-3 border border-gray-300 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder-zinc-500 rounded-lg focus:outline-none focus:border-teal-600 dark:focus:border-teal-400'
                         />
                         {errors.name && <p className='text-xs text-red-500 mt-1'>{errors.name}</p>}
                     </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                             onChange={handleChange}
                             placeholder='Enter Email'
                             required
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600'
+                            className='w-full px-4 py-3 border border-gray-300 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder-zinc-500 rounded-lg focus:outline-none focus:border-teal-600 dark:focus:border-teal-400'
                         />
                         {errors.email && <p className='text-xs text-red-500 mt-1'>{errors.email}</p>}
                     </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder='Enter Subject'
                     required
-                    className='w-full px-4 py-3 border border-gray-300 rounded-lg mb-6 focus:outline-none focus:border-teal-600'
+                    className='w-full px-4 py-3 border border-gray-300 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder-zinc-500 rounded-lg mb-6 focus:outline-none focus:border-teal-600 dark:focus:border-teal-400'
                 />
                 {errors.subject && <p className='text-xs text-red-500 -mt-4 mb-6'>{errors.subject}</p>}
                 <textarea
@@ -109,20 +109,20 @@ const Contact = () => {
                     placeholder='Enter Message here'
                     required
                     rows={6}
-                    className='w-full px-4 py-3 border border-gray-300 rounded-lg mb-6 resize-y focus:outline-none focus:border-teal-600'
+                    className='w-full px-4 py-3 border border-gray-300 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder-zinc-500 rounded-lg mb-6 resize-y focus:outline-none focus:border-teal-600 dark:focus:border-teal-400'
                 />
                 {errors.message && <p className='text-xs text-red-500 -mt-4 mb-6'>{errors.message}</p>}
                 <div className='text-center'>
                     <button
                         type='submit'
                         disabled={status === 'sending'}
-                        className='flex items-center gap-2 mx-auto px-10 py-4 bg-zinc-900 rounded-full text-slate-200 hover:bg-black transition duration-300 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed'
+                        className='flex items-center gap-2 mx-auto px-10 py-4 bg-zinc-900 dark:bg-zinc-100 rounded-full text-slate-200 dark:text-zinc-900 hover:bg-black dark:hover:bg-white transition duration-300 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed'
                     >
                         {status === 'sending' ? 'Sending...' : 'Send Message'}
                         <FaArrowRight />
                     </button>
                     {status === 'success' && (
-                        <p className='text-sm text-teal-600 mt-4'>Message sent! I'll get back to you soon.</p>
+                        <p className='text-sm text-teal-600 dark:text-teal-400 mt-4'>Message sent! I'll get back to you soon.</p>
                     )}
                     {status === 'error' && (
                         <p className='text-sm text-red-500 mt-4'>Something went wrong. Please try again or email me directly at {CONTACT_EMAIL}.</p>

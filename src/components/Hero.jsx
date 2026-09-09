@@ -9,19 +9,19 @@ const Hero = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
                 <div className='text-center lg:text-left'>
                     <h1 className='text-5xl sm:text-6xl md:text-7xl font-bold mb-10'>
-                        <span className='text-zinc-700'>Backend Developer</span>
+                        <span className='text-zinc-700 dark:text-zinc-200'>Backend Developer</span>
                         <br />
-                        <span className='text-cyan-700'>JavaScript</span>
+                        <span className='text-cyan-700 dark:text-cyan-400'>JavaScript</span>
                     </h1>
-                    <p className='text-xl text-zinc-900 mb-6'>
+                    <p className='text-xl text-zinc-900 dark:text-zinc-300 mb-6'>
                          I build the high-performance foundations that power immersive web experiences, bridging complex backend engineering with seamless user interaction.
                     </p>
                     <div className='flex flex-col md:flex-row items-center gap-4'>
-                    <a href='#work' className='flex gap-2 items-center px-10 py-4 bg-black rounded-full text-slate-200 hover:text-white cursor-pointer'>
+                    <a href='#work' className='flex gap-2 items-center px-10 py-4 bg-black dark:bg-zinc-100 rounded-full text-slate-200 dark:text-zinc-900 hover:text-white dark:hover:bg-white cursor-pointer'>
                         View My Work
                         <FaArrowRight />
                     </a>
-                    <a href='#contact' className='flex gap-2 items-center px-10 py-4 border border-slate-400 rounded-full hover:border-slate-800 transition duration-300 cursor-pointer'>
+                    <a href='#contact' className='flex gap-2 items-center px-10 py-4 border border-slate-400 dark:border-slate-600 rounded-full hover:border-slate-800 dark:hover:border-slate-300 transition duration-300 cursor-pointer'>
                         Contact Me
                         <FaArrowRight />
                     </a>
